@@ -9,7 +9,7 @@ function App() {
   return (
     <div className='flex'>
       <NavBar/>
-      <div className="flex fixed items-center justify-center w-screen bg-black shadow-black h-20 border-b-2 border-blue-300">
+      <div className="flex fixed items-center z-20 justify-center w-screen bg-black shadow-black h-20 border-b-2 border-blue-300">
       <TypeWriterEffect 
             textStyle={{ fontFamily: 'Menlo' , color: 'white'}}
             startDelay={100}

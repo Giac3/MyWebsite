@@ -6,8 +6,8 @@
 .sliderview {
   position: absolute;
   color: white;
-  width: 1400px;
-  left: 140%;
+  width: 1340px;
+  left: 136%;
   height: 100px;
   top: 10%;
 }
@@ -21,7 +21,7 @@
 
 .card {
   border: 1px solid white; 
-  height:450px;
+  height:650px;
   overflow: hidden;
   background-color: black;
 }
@@ -49,9 +49,9 @@
   font-size: 20px;
   position: absolute;
   font-family: Menlo;
-  height: 300px;
+  height: 200px;
   left: 4.2%;
-  top: 66%;
+  top: 86%;
   position: fixed;
   animation: 1s ease-out 0s 1 slideInFromBottom;
 }

@@ -48,7 +48,11 @@ import 'slick-carousel/slick/slick-theme.css'
     ]
   };
     return (
+      <div>
 
+<div className="fixed top z-10 right-0 h-screen w-16 m-0 flex flex-col bg-black text-white shadow-md border-l-2 border-blue-300">
+
+</div>
       
          <div className="fixed top left-0 h-screen w-16 m-0 flex flex-col bg-black text-white shadow-md border-r-2 border-blue-300">
 
@@ -73,13 +77,13 @@ import 'slick-carousel/slick/slick-theme.css'
             </button>
 
             <div class="header transition-all duration-300 ease-linear -z-40 w-screen hover:border-t-2 border-orange-500">
-  <h1>(base) giacomopessotto@Giacomos-Website ~ % </h1>
-  <h2 id='terminal-text'>{terminalText}</h2>
+  <h1 class=' text-xs'>(base) giacomopessotto@Giacomos-Website ~ % </h1>
+  <h2 class=' text-xs' id='terminal-text'>{terminalText}</h2>
 </div>
 
 <div className='sliderview -z-40'>
             <Slider {...settings}>
-          <div className='card'>
+          <div className='card '>
             <h3 className='card-top text-green-700'> ./Home.js</h3>
             <p className='card-bottom'>Hello, Thanks for visiting my website</p>
           </div>
@@ -105,6 +109,7 @@ import 'slick-carousel/slick/slick-theme.css'
 
       </div>
             
+         </div>
          </div>
     );
  };

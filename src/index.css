@@ -4,7 +4,7 @@
 
 @layer components {
   .navbar-icons {
-     @apply relative top-24  flex items-center justify-center h-12 w-12 mt-2 mb-10 mx-auto bg-slate-100 text-black 
+     @apply relative top-44 flex items-center justify-center h-12 w-12 mt-2 mb-10 mx-auto bg-slate-100 text-black 
      hover:bg-black  hover:text-white rounded-3xl hover:rounded-xl transition-all duration-300 ease-linear cursor-pointer 
      shadow-md hover:shadow-white; 
   }
